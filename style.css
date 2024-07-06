@@ -1,0 +1,41 @@
+html{
+    box-sizing: border-box;
+}
+
+* , *::before , *::after{
+    box-sizing: inherit;
+}
+
+/* .primary-button:hover{
+    color: red;
+
+} */
+
+
+#ping-pong-table{
+    border: 2px solid black;
+    width: 700px;
+    height: 400px;
+    position: relative;
+ 
+
+}
+
+#paddle{
+    background: blue;
+    width: 10px;
+    height: 75px;
+    margin-left: 2px;
+    position: absolute;
+
+}
+
+
+#ball{
+ background-color: red;
+ height: 10px;
+ width: 10px;
+ border-radius: 50%;
+ position: absolute;
+
+}
